@@ -1,0 +1,51 @@
+.home-container {
+  background-image: url('https://img.freepik.com/premium-vector/online-shopping-digital-technology-with-icon-blue-background-ecommerce-online-store-marketing_252172-219.jpg');
+  background-size: cover;
+  min-height: 100vh;
+}
+.home-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+@media screen and (min-width: 768px) {
+  .home-menu-container {
+    padding-top: 150px;
+  }
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 38px;
+  }
+}
+.desc {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.button {
+  background-color: blue;
+  color: #ffffff;
+  font-family: 'Sans-Serif';
+  border-style: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
